@@ -6,11 +6,12 @@ Please describe your Startup Campus final project here. You may should your <b>m
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | Team Lead |
-| ... | ... | ... | ... | Team Member |
-| ... | ... | ... | ... |Team Member |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Adelia Virnanda Putri Suhadi | Universitas Muhammadiyah Surabaya | adeliavirnandaps@gmail.com | [link](https://www.linkedin.com/in/adelia-virnanda-putri-suhadi-218972218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Treasurer |
+| Muhammad Abdan Rafi'i | Universitas Sebelas Maret | abdanrafii@student.uns.ac.id | [link](https://www.linkedin.com/in/muhammad-abdan-rafii/) | Team Lead |
+| A'yun Fa'yuni | Universitas Nahdlatul Ulama Sunan Giri Bojonegoro | ayunfayunii@gmail.com | [link](https://www.linkedin.com/in/a-yun-fa-yuni-686a56246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Team Member |
+| Al Hafiz Defriansyah | Politeknik Negeri Sriwijaya | alhafizdefriansyah41@gmail.com | [link](https://www.linkedin.com/in/alhafizdefriansyah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) |Team Member |
+| Ardhya Xeonanda Pradipta | Universitas Sebelas Maret | ardhya@student.uns.ac.id | [link](https://www.linkedin.com/in/ardhya-xeonanda/) | Team Member |
+| Edgar Hafizh Alfarizi | Universitas Negeri Surabaya | edgar.21003@mhs.unesa.ac.id | [link](https://www.linkedin.com/in/edgarhafizh002?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | Team Member |
 | Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
 
 ## Setup
