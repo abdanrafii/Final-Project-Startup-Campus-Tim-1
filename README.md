@@ -33,8 +33,9 @@ Please describe your Startup Campus final project here. You may should your <b>m
 | OS | Example: macOS Sonoma v14.1.1 |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://www.kaggle.com/datasets/sadmansakibmahi/plant-disease-expert
+The dataset used in this project is obtained from [Kaggle](kaggle.com). It is titled Plant Disease Expert Dataset and provides images of various plant leaves categorized into different classes based on their health or diseases. For this project, we focus exclusively on the data related to tomato plants.
+- Link to datasets: https://www.kaggle.com/datasets/sadmansakibmahi/plant-disease-expert
+![download (29)](https://github.com/user-attachments/assets/2226a82a-8128-4706-952e-9c53a982beff)
 
 ## Results
 ### Model Performance
