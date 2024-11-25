@@ -69,7 +69,10 @@ Any improvements or modifications of your base model, should be summarized in th
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
- 
+
+![graph accuracy](https://github.com/user-attachments/assets/977179f6-bfd4-423f-8eb7-49bd168ee9db)
+![graph loss](https://github.com/user-attachments/assets/59f3a76b-09df-4e69-8a35-157d6eb27d99)
+
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
 
