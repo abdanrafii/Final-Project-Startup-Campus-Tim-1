@@ -26,7 +26,7 @@ Please describe your Startup Campus final project here. You may should your <b>m
 | | |
 | --- | --- |
 | CPU | Example: Apple M3 Pro 12-core CPU |
-| GPU | Example: Nvidia A100 (x1) |
+| GPU | Example: Tesla T4 (x1) |
 | ROM | Example: 1 TB SSD |
 | RAM | Example: 36 GB |
 | OS | Example: macOS Sonoma v14.1.1 |
