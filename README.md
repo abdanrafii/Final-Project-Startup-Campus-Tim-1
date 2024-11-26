@@ -52,20 +52,25 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
+| Model | Epoch | Learning Rate | Batch size | Optimizer | Accuray | Loss | Validation Accuracy | Validation Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
+| EfficientNetB3 | 10 |  0.0001 | 32 | Adam | 99.61% | 0.0133 | 99.11% | 0.0223 |
+| DenseNet121 | 10 |  0.0001 | 32 | Adam | 98.86% | 0.0328 | 97.21% | 0.0763 |
+| ResNet50 | 10 |  0.0001 | 32 | Adam | 99.29% | 0.0208 | 98.55% | 0.0577 |
+| InceptionV3 | 10 |  0.0001 | 32 | Adam | 98.98% | 0.0279 | 98.33% | 0.0557 |
+| MobileNetV2 | 10 |  0.0001 | 32 | Adam | 99.12% | 0.0290 | 91.29% | 0.4089 |
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
-| model | layer_A | layer_B | layer_C | ... | top1_acc | top5_acc |
-| --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 | Conv(1x1, 2048) x3 | ... | 77.43% | 80.08% |
-| vit_b_16 | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | Conv(1x1, 1028) x2 | ... | 72.11% | 76.84% |
-| ... | ... | ... | ... | ... | ... | ... |
+| Model | Base Model Trainable | Learning Rate | Added Layers | Dropout Rate | Output Layer | Accuray | Loss | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| EfficientNetB3 (Base) | Frozen | 0.001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 91.60% | 0.3026 | 91.74% | 0.2630 | 91.26% | 0.285 |
+| EfficientNetB3 (Modified 1) | Trainable | 0.0001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 99.85% | 0.0065 | 99.22% | 0.0271 | 98.67% | 0.0328 |
+| EfficientNetB3 (Modified 2) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.5 | Dense(9, softmax) | 99.50% | 0.0160 | 99.33% | 0.0221 | 99.00% | 0.0388 |
+| EfficientNetB3 (Modified 3) | Trainable | 0.0001 | Dense(1024, relu), GlobalAveragePooling2D | 0.3 | Dense(9, softmax) | 99.63% | 0.0121 | 98.88% | 0.0341 | 99.68% | 0.0175% |
+| EfficientNetB3 (Modified 4) | Frozen | 0.001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 86.69% | 0.4104 | 91.07% | 0.2892 | 90.92% | 0.3024 |
+| EfficientNetB3 (Final) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 99.61% | 0.0133 | 99.11% | 0.0223 | 99.51% | 0.0177 |
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
