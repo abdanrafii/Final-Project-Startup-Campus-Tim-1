@@ -76,6 +76,8 @@ Insert an image regarding your training and evaluation performances (especially 
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
 
+![tenimage](https://github.com/user-attachments/assets/6ab1bdca-2c9c-4474-b93d-b92d3bccac3d)
+
 ### Deployment (Optional)
 Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
 
