@@ -54,7 +54,7 @@ Feel free to adjust the columns in the table below.
 
 | Model | Epoch | Learning Rate | Batch size | Optimizer | Accuray | Loss | Validation Accuracy | Validation Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EfficientNetB3 | 10 |  0.0001 | 32 | Adam | 99.61% | 0.0133 | 99.11% | 0.0223 |
+| EfficientNetB3 | 10 |  0.0001 | 32 | Adam | 99.50% | 0.0160 | 99.33% | 0.0221 |
 | DenseNet121 | 10 |  0.0001 | 32 | Adam | 98.86% | 0.0328 | 97.21% | 0.0763 |
 | ResNet50 | 10 |  0.0001 | 32 | Adam | 99.29% | 0.0208 | 98.55% | 0.0577 |
 | InceptionV3 | 10 |  0.0001 | 32 | Adam | 98.98% | 0.0279 | 98.33% | 0.0557 |
@@ -67,16 +67,16 @@ Any improvements or modifications of your base model, should be summarized in th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EfficientNetB3 (Base) | Frozen | 0.001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 91.60% | 0.3026 | 91.74% | 0.2630 | 91.26% | 0.285 |
 | EfficientNetB3 (Modified 1) | Trainable | 0.0001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 99.85% | 0.0065 | 99.22% | 0.0271 | 98.67% | 0.0328 |
-| EfficientNetB3 (Modified 2) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.5 | Dense(9, softmax) | 99.50% | 0.0160 | 99.33% | 0.0221 | 99.00% | 0.0388 |
-| EfficientNetB3 (Modified 3) | Trainable | 0.0001 | Dense(1024, relu), GlobalAveragePooling2D | 0.3 | Dense(9, softmax) | 99.63% | 0.0121 | 98.88% | 0.0341 | 99.68% | 0.0175% |
-| EfficientNetB3 (Modified 4) | Frozen | 0.001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 86.69% | 0.4104 | 91.07% | 0.2892 | 90.92% | 0.3024 |
-| EfficientNetB3 (Final) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 99.61% | 0.0133 | 99.11% | 0.0223 | 99.51% | 0.0177 |
+| EfficientNetB3 (Modified 2) | Frozen | 0.001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 86.69% | 0.4104 | 91.07% | 0.2892 | 90.92% | 0.3024 |
+| EfficientNetB3 (Modified 3) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.4 | Dense(9, softmax) | 99.61% | 0.0133 | 99.11% | 0.0223 | 99.51% | 0.0177 |
+| EfficientNetB3 (Modified 4) | Trainable | 0.0001 | Dense(1024, relu), GlobalAveragePooling2D | 0.3 | Dense(9, softmax) | 99.63% | 0.0121 | 98.88% | 0.0341 | 99.68% | 0.0175% |
+| EfficientNetB3 (Final) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.5 | Dense(9, softmax) | 99.50% | 0.0160 | 99.33% | 0.0221 | 99.00% | 0.0388 |
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
 
-![graph accuracy](https://github.com/user-attachments/assets/977179f6-bfd4-423f-8eb7-49bd168ee9db)
-![graph loss](https://github.com/user-attachments/assets/59f3a76b-09df-4e69-8a35-157d6eb27d99)
+![Graph Accuracy](https://github.com/user-attachments/assets/f6cfb9a4-88e6-4cec-a90b-f788ccd37059)
+![Graph Loss](https://github.com/user-attachments/assets/c322cc01-c036-4430-9783-a5eb0083bb3c)
 
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
