@@ -52,7 +52,7 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| Model | Epoch | Learning Rate | Batch size | Optimizer | Accuray | Loss | Validation Accuracy | Validation Loss |
+| Model | Epoch | Learning Rate | Batch size | Optimizer | Accuracy | Loss | Validation Accuracy | Validation Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EfficientNetB3 | 10 |  0.0001 | 32 | Adam | 99.50% | 0.0160 | 99.33% | 0.0221 |
 | DenseNet121 | 10 |  0.0001 | 32 | Adam | 98.86% | 0.0328 | 97.21% | 0.0763 |
