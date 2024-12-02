@@ -63,7 +63,7 @@ Feel free to adjust the columns in the table below.
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
-| Model | Base Model Trainable | Learning Rate | Added Layers | Dropout Rate | Output Layer | Accuray | Loss | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
+| Model | Base Model Trainable | Learning Rate | Added Layers | Dropout Rate | Output Layer | Accuracy | Loss | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EfficientNetB3 (Base) | Frozen | 0.001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 91.60% | 0.3026 | 91.74% | 0.2630 | 91.26% | 0.285 |
 | EfficientNetB3 (Modified 1) | Trainable | 0.0001 | GlobalAveragePooling2D | 0.0 | Dense(9, softmax) | 99.85% | 0.0065 | 99.22% | 0.0271 | 98.67% | 0.0328 |
