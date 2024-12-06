@@ -42,19 +42,8 @@ The dataset used in this project is obtained from [Kaggle](kaggle.com). It is ti
 
 ## Results
 ### Model Performance
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
-Inform your model validation performances, as follows:
-- For classification tasks, use **Precision and Recall**.
-- For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
-- For image retrieval tasks, use **Precision and Recall**.
-- For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
-- For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
-  - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
-  - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
-
-Feel free to adjust the columns in the table below.
 
 | Model | Epoch | Learning Rate | Batch size | Optimizer | Accuracy | Loss | Validation Accuracy | Validation Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -65,7 +54,6 @@ Feel free to adjust the columns in the table below.
 | MobileNetV2 | 10 |  0.0001 | 32 | Adam | 99.12% | 0.0290 | 91.29% | 0.4089 |
 
 #### 2. Ablation Study
-Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
 | Model | Base Model Trainable | Learning Rate | Added Layers | Dropout Rate | Output Layer | Accuracy | Loss | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -77,13 +65,11 @@ Any improvements or modifications of your base model, should be summarized in th
 | EfficientNetB3 (Final) | Trainable | 0.0001 | Dense(512, relu), GlobalAveragePooling2D | 0.5 | Dense(9, softmax) | 99.50% | 0.0160 | 99.33% | 0.0221 | 99.00% | 0.0388 |
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
 
 ![Graph Accuracy](https://github.com/user-attachments/assets/f6cfb9a4-88e6-4cec-a90b-f788ccd37059)
 ![Graph Loss](https://github.com/user-attachments/assets/c322cc01-c036-4430-9783-a5eb0083bb3c)
 
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
 
 ![tenimage](https://github.com/user-attachments/assets/6ab1bdca-2c9c-4474-b93d-b92d3bccac3d)
 
