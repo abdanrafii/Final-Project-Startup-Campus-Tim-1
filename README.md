@@ -91,7 +91,7 @@ Link to our project: https://equipped-oarfish-sharp.ngrok-free.app/
 - Link: https://github.com/Sukanyasingh3/AgroAid.git
 
 ## Additional Comments
-No additional comments at this moment
+No additional comment at this moment
 
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
