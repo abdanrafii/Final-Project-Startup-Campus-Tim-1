@@ -29,11 +29,11 @@ The project aims to assist farmers, agricultural experts, and hobbyists in diagn
 ### Environment
 | | |
 | --- | --- |
-| CPU | Intel® Core™ i9 processor 14900K |
-| GPU | Tesla T4 (x1) |
-| ROM | 70 GB SSD |
+| CPU | Standard Google Colab VM Processor |
+| GPU | Tesla T4 |
+| ROM | 100 GB of temporary storage |
 | RAM | 12 GB |
-| OS | Windows 11 |
+| OS | Ubuntu 18.04.6 LTS (Linux-based system) |
 
 ## Dataset
 The dataset used in this project is obtained from [Kaggle](kaggle.com). It is titled Plant Disease Expert Dataset and provides images of various plant leaves categorized into different classes based on their health or diseases. For this project, we focus exclusively on the data related to tomato plants.
