@@ -23,17 +23,17 @@ The project aims to assist farmers, agricultural experts, and hobbyists in diagn
 - numpy==1.23.5
 - matplotlib==3.6.2
 - tensorflow==2.12.0
-- ...
-- ...
+- keras==2.12.0
+
 
 ### Environment
 | | |
 | --- | --- |
-| CPU | Example: Apple M3 Pro 12-core CPU |
-| GPU | Example: Tesla T4 (x1) |
-| ROM | Example: 1 TB SSD |
-| RAM | Example: 36 GB |
-| OS | Example: macOS Sonoma v14.1.1 |
+| CPU | Intel® Core™ i9 processor 14900K |
+| GPU | Tesla T4 (x1) |
+| ROM | 70 GB SSD |
+| RAM | 12 GB |
+| OS | Windows 11 |
 
 ## Dataset
 The dataset used in this project is obtained from [Kaggle](kaggle.com). It is titled Plant Disease Expert Dataset and provides images of various plant leaves categorized into different classes based on their health or diseases. For this project, we focus exclusively on the data related to tomato plants.
