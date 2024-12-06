@@ -1,7 +1,11 @@
 # Tomato Plant Disease Classification Based On Symptomps
 
 ## Project Description
-Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
+This project focuses on multiclass classification of tomato plant diseases using images of their leaves. By leveraging EfficientNetB3 and TensorFlow, it identifies and classifies tomato leaf images into specific disease categories or as healthy.
+
+The project aims to assist farmers, agricultural experts, and hobbyists in diagnosing tomato plant diseases efficiently and accurately, reducing the risk of crop failure and promoting better farming practices.
+
+![image](https://github.com/user-attachments/assets/26cc8fc2-a24b-423c-826e-477e275e6813)
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
