@@ -87,22 +87,21 @@ Show some implementations (demos) of this model. Show **at least 10 images** of 
 
 ![tenimage](https://github.com/user-attachments/assets/6ab1bdca-2c9c-4474-b93d-b92d3bccac3d)
 
-### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+### Deployment
+We have deployed this product using Streamlit to build the website to be interactive and Ngrok for tunneling from local to internet using Public URL.
+Link to our project: https://equipped-oarfish-sharp.ngrok-free.app/
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: https://drive.google.com/file/d/1JOzANyhUWw8FcSIBrYdbj7ukkeJLFRKL/view?usp=drive_link
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+![Tim 1 SCAI (1)](https://github.com/user-attachments/assets/375fac2d-1af9-4f78-902a-c1ea4a0bddf1)
 
 ### Short Video
-Provide a link to your short video, that should includes the project background and how it works.
 - Link: https://...
 
 ## References
-Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: https://github.com/Sukanyasingh3/AgroAid.git
 - Link: https://...
 - Link: https://...
@@ -116,9 +115,15 @@ Provide your team's additional comments or final remarks for this project. For e
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 ```
-@article{
-...
+@article{Final Project Startup Campus Tim 1,
+  author    = {6 orang},
+  title     = {Tomato Plant Classification based on Symptoms},
+  journal   = {GitHub Repository},
+  year      = {2024},
+  url       = {https://github.com/abdanrafii/Final-Project-Startup-Campus-Tim-1},
+  note      = {Accessed: 2024-12-06}
 }
+
 ```
 
 ## License
