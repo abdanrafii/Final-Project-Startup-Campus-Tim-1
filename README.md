@@ -89,8 +89,6 @@ Link to our project: https://equipped-oarfish-sharp.ngrok-free.app/
 
 ## References
 - Link: https://github.com/Sukanyasingh3/AgroAid.git
-- Link: https://...
-- Link: https://...
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
@@ -101,9 +99,9 @@ Provide your team's additional comments or final remarks for this project. For e
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 ```
-@article{Final Project Startup Campus Tim 1,
-  author    = {6 orang},
-  title     = {Tomato Plant Classification based on Symptoms},
+@article{FinalProjectStartupCampusTim1,
+  author    = {Team 1, Startup Campus},
+  title     = {Tomato Plant Classification Based on Symptoms},
   journal   = {GitHub Repository},
   year      = {2024},
   url       = {https://github.com/abdanrafii/Final-Project-Startup-Campus-Tim-1},
