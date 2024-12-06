@@ -85,13 +85,18 @@ Link to our project: https://equipped-oarfish-sharp.ngrok-free.app/
 ![Tim 1 SCAI (1)](https://github.com/user-attachments/assets/375fac2d-1af9-4f78-902a-c1ea4a0bddf1)
 
 ### Short Video
-- Link: https://...
+- Link: https://youtu.be/kmfy8d_uPqA
 
 ## References
 - Link: https://github.com/Sukanyasingh3/AgroAid.git
 
 ## Additional Comments
-No additional comment at this moment
+To run the code
+1. Open the Deployment folder and put the Deployment.ipynb to google colab
+2. Put all files in Deployment folder except the Deployment.ipynb to colab folder
+3. Put the model to colab folder, the model can be downloaded [here](https://drive.google.com/file/d/1kNGzBmZqxHGw0TDSuMvIhWxfLIz32xs8/view?usp=sharing)
+4. Replace the OpenAI API to your own API Key
+5. Run the code
 
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
