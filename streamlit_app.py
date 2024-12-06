@@ -334,4 +334,6 @@
 # print(f"Streamlit app is live at {public_url}")
 
 import streamlit as st
-st.title("Test")
+api_key = st.secrets["API_KEY"]
+
+st.write("Your API Key is:", api_key)
