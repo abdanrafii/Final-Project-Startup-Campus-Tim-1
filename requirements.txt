@@ -1,4 +1,0 @@
-streamlit
-requests
-tensorflow>=2.0
-h5py
