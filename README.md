@@ -91,7 +91,7 @@ Link to our project: https://equipped-oarfish-sharp.ngrok-free.app/
 - Link: https://github.com/Sukanyasingh3/AgroAid.git
 
 ## Additional Comments
-To run the code
+Due to the size of our model, we were unable to deploy it on Streamlit. As an alternative, we deployed it using Ngrok, but it can only be accessed when the tunnel is open. Since this deployment requires its own API key, you will need to have your own OpenAI API key to use it. Here's how to run:
 1. Open the Deployment folder and put the Deployment.ipynb to google colab
 2. Put all files in Deployment folder except the Deployment.ipynb to colab folder
 3. Put the model to colab folder, the model can be downloaded [here](https://drive.google.com/file/d/1kNGzBmZqxHGw0TDSuMvIhWxfLIz32xs8/view?usp=sharing)
